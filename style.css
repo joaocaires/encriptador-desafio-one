@@ -1,0 +1,130 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #FFFFFF, #D3CDE0, #8D8A9B, #464655);
+}
+
+.logoAlura{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: absolute;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.informacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    position: absolute;
+    width: 700px;
+    height: 18px;
+    left: 190px;
+    top: 250px;
+}
+
+.areaDigitacao{
+    position: absolute;
+    left: 180px;
+    top: 168px;
+}
+
+.areaBotoes{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    left: 150px;
+    top: 280px;
+}
+
+.botaoEncriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    width: 328px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: 1s;
+}
+
+.botaoEncriptar:hover{
+    background-color: #158475;
+    cursor: pointer;
+}
+
+.botaoDesencriptar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    transition: 1s;
+}
+
+.botaoDesencriptar:hover{
+    background-color: #B7EBF5;
+    cursor: pointer;
+}
+
+.botaoCopiar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 190px;
+    height: 67px;
+    top: 460px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    transition: 1s;
+}
+
+.botaoCopiar:hover{
+    background-color: #F5FFAD;
+    cursor: pointer;
+}
+
+.areaResposta{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 920px;
+    top: 42px;
+    border-radius: 32px;
+}

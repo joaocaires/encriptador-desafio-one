@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio ONE</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="./Vector.png" alt="logoAlura" class="logoAlura">
+    </header>
+
+    <main>
+        <div class="informacao">
+            <p>Digite o texto usando apenas letras minusculas e sem caracteres especiais</p>
+        </div>
+
+        <div class="areaDigitacao">
+            <textarea name="texto-codificador" id="textCod" cols="80" rows="2" placeholder="Digite o seu texto..."></textarea>
+        </div>
+
+        <div class="areaBotoes">
+            <button class="botaoEncriptar" id="botaoEncript" type="submit">Encriptar</button>
+
+            <button class="botaoDesencriptar" id="botaoDecript" type="submit">Desencriptar</button>
+        </div>
+
+        <div class="areaResposta">
+            <textarea name="texto-codificador" id="textRes" cols="30" rows="22" placeholder="Area de resposta:"></textarea>
+            <button class="botaoCopiar" id="botaoCop">Copiar</button>
+        </div>
+    </main>
+
+    <script src="./encriptador2.js"></script>
+
+</body>
+</html>
